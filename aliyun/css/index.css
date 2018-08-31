@@ -1,0 +1,308 @@
+.header {
+      width: 100%;
+}
+
+#main {
+      min-width: 1200px;
+}
+
+.footer {
+      width: 100%;
+      height: 25rem;
+}
+
+/* 轮播图 */
+
+.banner {
+      width: 100%;
+      height: 609px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+}
+
+.banner-item {
+      position: absolute;
+      width: 100%;
+      transition: .5s;
+}
+
+.banner-detail {
+      position: absolute;
+      bottom: 0;
+      background: #252f34;
+}
+.banner-detail li{
+    padding: 30px 10px 20px 30px; 
+    color: white; 
+}
+.banner-detail li p{
+      width: 80%;
+}
+.banner-detail li:hover{
+      background: #344047;
+}
+.banner-item img {
+      width: 100%;
+      height: 500px;
+}
+
+.banner-title {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      z-index: 10;
+      color: white;
+}
+
+.banner-link {
+      display: inline-block;
+      margin-top: 30px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #00c1de;
+      font-size: 30px;
+      color: #fff;
+}
+
+.banner-link:hover {
+      color: #00c1de;
+}
+
+/* 小图片 */
+
+.product-icon {
+      padding-top: 30px;
+      padding-bottom: 45px;
+}
+
+.product-icon ul {
+      text-align: center;
+      overflow: hidden;
+      min-width: 1200px;
+}
+
+.product-icon ul li {
+      float: left;
+      width: 20%;
+}
+
+.product-icon ul li img {
+      width: 80px;
+      height: 80px;
+}
+
+.product-icon ul li a {
+      color: black;
+}
+
+.product-icon ul li a p {
+      font-size: 14px;
+}
+
+.product {
+      background: #F5F5F6;
+      padding-top: 20px;
+      padding-left: 120px;
+      padding-right: 120px;
+}
+
+.product-left {
+      padding-top: 40px;
+      padding-bottom: 30px;
+}
+
+.product-left a span {
+      font-size: 18px;
+      font-weight: bold;
+      color: #34444A;
+      transition: .3s;
+}
+
+div.row .product-left p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+
+.product-left a:last-child {
+      display: inline-block;
+      width: 5rem;
+      height: 30px;
+      border: 1px solid black;
+      text-align: center;
+      line-height: 25px;
+      color: #34444a;
+      transition: .4s;
+}
+
+.product-left a:last-child:hover {
+      color: #00c1de;
+      border: 1px solid #00c1de;
+}
+
+.product-center,
+.product-right {
+      padding-left: 20px;
+      padding-top: 15px;
+      margin-right: 40px;
+      transition: .3s;
+}
+
+.product-center:hover,
+.product-right:hover {
+      box-shadow: 0 0 1px 1px rgb(176, 176, 180);
+      background: #Fff;
+}
+
+.product-center a img,
+.product-left a img,
+.product-right a img {
+      transform: scale(.6);
+}
+
+.product-center a,
+.product-right a {
+      color: black;
+}
+
+.product-center p,
+.product-right p {
+      color: #9B9EA0;
+      padding-top: 10px;
+      padding-bottom: 20px;
+}
+
+/* 黑白图片 */
+
+.black-bg {
+      height: 415px;
+}
+
+.black-bg-1 {
+      background: url(../img/index/opacity-img1.jpg) no-repeat;
+}
+
+.black-bg-2 {
+      background: url(../img/index/opacity-img2.jpg) no-repeat;
+}
+
+.black-bg-3 {
+      background: url(../img/index/opacity-img3.jpg) no-repeat;
+}
+
+.black-bg-4 {
+      background: url(../img/index/opacity-img4.jpg) no-repeat;
+}
+
+.black-bg-5 {
+      background: url(../img/index/opacity-img5.jpg) no-repeat;
+}
+
+.black-bg div {
+      background-size: 100% 100%;
+      text-align: center;
+}
+
+.black-bg a {
+      background: rgba(0, 0, 0, .7);
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+}
+
+.black-bg .to-up {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 100px;
+      left: 0;
+}
+
+.black-bg a:hover {
+      background: rgba(0, 193, 222, .7);
+}
+
+.black-bg a:hover .to-up {
+      top: 0;
+}
+
+.black-bg a:hover .to-up p,
+.black-bg a:hover .to-up img:nth-child(2),
+.black-bg a:hover .to-up span {
+      opacity: 1;
+}
+
+.black-bg a:hover .to-up span {
+      margin-top: 40px;
+}
+
+.black-bg a:hover .to-up h3 {
+      margin-top: 140px;
+}
+
+.black-bg a:hover .to-up i {
+      opacity: 0;
+}
+
+.black-bg .to-up img {
+      width: 71px;
+      display: block;
+      position: absolute;
+      top: 50px;
+      left: 100px;
+}
+
+.black-bg .to-up img:nth-child(2),
+.black-bg .to-up p,
+.black-bg .to-up span {
+      opacity: 0;
+}
+
+.black-bg .to-up i {
+      display: flex;
+      width: 20px;
+      height: 2px;
+      background: white;
+      position: absolute;
+      top: 140px;
+      left: 125px;
+      opacity: 1;
+}
+
+.black-bg .to-up h3 {
+      font-size: 22px;
+      color: white;
+      margin-top: 160px;
+      margin-bottom: 20px;
+}
+
+.black-bg .to-up p {
+      color: white;
+}
+
+.black-bg .to-up span {
+      display: inline-block;
+      color: white;
+      width: 150px;
+      height: 45px;
+      line-height: 45px;
+      background: #00c1de;
+      border: 1px solid white;
+      margin-top: 60px;
+}
+
+.to-up span:hover {
+      background: white;
+      color: #00c1de;
+}
+
+.to-up,
+.to-up img,
+.to-up i,
+.to-up h3,
+.to-up p,
+.to-up span,
+.black-bg a {
+      transition: .5s;
+}

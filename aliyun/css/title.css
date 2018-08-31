@@ -1,0 +1,103 @@
+.body{
+    min-width: 1200px;
+}
+.main{
+    margin: 30px 100px;
+    padding: 30px;
+    border: 1px solid #9b9b9b;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.5);
+}
+.title-banner img{
+    width: 100%;
+}
+.color-red{
+    background: #F66B6B;
+    color: #fff;
+}
+.title-detail{
+    border-bottom: 1px solid #9b9b9b;
+}
+.title-list-link{
+    border: 1px solid #9b9b9b;
+    cursor: pointer;
+}
+.title-list-link:hover{
+    border: 1px solid #00c1de;
+    box-shadow: 0 0 20px rgba(0, 198, 226, 1);
+}
+.title-item{
+    background: #00c1de;
+    padding: 10px 50px 10px 10px;
+    color: #fff;
+}
+.years{
+    width:15px;
+    height: 15px;
+}
+.title-price{
+    padding-right: 20px;
+    border-right: 1px solid #afafb8;
+}
+.main p{
+    margin: 0;
+    color: #F5A623;
+}
+/* config */
+#city, #OS1{
+    width: 80%;
+    height: 40px;
+}
+.title-config h6,
+.title-config p{
+    padding-bottom: 8px;
+}
+.title-config-width{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: #00c1de;
+    color: #fff;
+    text-align: center;
+}
+.my-width{
+    width:8%;
+}
+.my-color{
+    color: #FD6E21;
+}
+p.my-btn{
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #00c1de;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+p.my-btn:hover{
+    background: #fff;
+    color: #00c1de;
+    border: 1px solid #00c1de;
+}
+
+/* 推荐内容 recommend */
+.recommend{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.recommend-list{
+    padding-left: 5%;
+}
+.recommend-list-item-top{
+    background: #00c1de;
+    color: #fff;
+    padding: 15px;
+}
+.recommend-list-item-top p{
+    margin: 0;
+    padding-bottom: 5px;
+}   
+.recommend-list-item-middle>ul{
+    padding-left: 20px;
+}
