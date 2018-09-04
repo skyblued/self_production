@@ -1,7 +1,7 @@
 /* 1.头的顶部 */
 
 .header-top {
-  background: rgb(28,35,39);
+  background: rgba(28,35,39,0);
   min-width: 1200px;
   display: flex;
 }
@@ -102,7 +102,7 @@
   min-width: 1200px;
   width: 100%;
   border-top: 1px solid #3C3E42;
-  background: rgb(28,35,39);
+  background: rgba(28,35,39,0);
   float: left;
   color: white;
   position: relative;

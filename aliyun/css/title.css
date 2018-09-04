@@ -99,5 +99,22 @@ p.my-btn:hover{
     padding-bottom: 5px;
 }   
 .recommend-list-item-middle>ul{
+    padding: 20px 20px 20px 40px;
+    color: #9B9EA0;
+    font-size: 14px;
+}
+.recommend-list-item-bottom{
     padding-left: 20px;
+}
+.recommend-list-item-bottom>span:first-child{
+    display: inline-block;
+    border: 1px solid #F15533;
+    color: #F15533;
+    transform: skew(-10deg);
+}
+.recommend-list-item-bottom p{
+    margin: 0;
+}
+.recommend-list-item-bottom{
+    
 }
