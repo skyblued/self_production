@@ -1,115 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="css/base.css">
-      <link rel="stylesheet" href="css/header.css">
-      <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/headerbase.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Document</title>
 </head>
-
-<body class="clearfix">
-      <div>
-            <!-- 顶部 -->
-            <div class="header-top">
-                  <ul class="top">
-                        <li class="w-25 display-block">
-                              <a class="w-100" href="#">
-                                    <img class="my-img1" src="img/index/logo.png">
-                                    <img class="my-aliyun my-img1" src="img/index/aliyun.gif">
-                              </a>
-                        </li>
-                        <!-- 搜索框 -->
-                        <li class="w-50 display-block">
-                              <input class="search-input" type="text" placeholder="Redis">
-                              <img class="search-img" src="img/index/search.png">
-                        </li>
-                        <!-- 下拉菜单 -->
-                        <li class="w-10">
-                              <select>
-                                    <option name="language" id="zhongguo">中国站</option>>
-                                    <option name="language" id="meiguo">English</option>>
-                                    <option name="language" id="deguo">德语</option>>
-                                    <option name="language" id="yindu">印度语</option>>
-                              </select>
-                        </li>
-                        <!-- 购物车 -->
-                        <li>
-                              <img class="my-img2" src="img/index/gouwuche.png" alt="车">
-                        </li>
-                        <li class="w-5 middle">
-                              <a href="#">购物车</a>
-                        </li>
-                        <li class="w-5 middle">
-                              <a href="#">控制台</a>
-                        </li>
-                        <li class="w-5 middle">
-                              <a href="#">文档</a>
-                        </li>
-                        <li class="w-5 middle">
-                              <a href="#">备案</a>
-                        </li>
-                        <li class="w-5 middle">
-                              <a href="#">邮箱</a>
-                        </li>
-                        <li class="w-5 middle">
-                              <a href="#">登录</a>
-                        </li>
-                  </ul>
+<body>
+    <div>
+        <!-- 头 -->
+    <div class="header">
+        <!-- 头部 bar -->
+        <div class="header-top">
+            <div class="header-left-hb">
+                <img src="img/header/hanbaobao.png" alt="">
             </div>
-            <!-- 导航栏 -->
-            <div class="nav">
-                  <!-- 导航 -->
-                  <ul>
-                        <li>
-                              <a href="#">最新活动</a>
-                        </li>
-                        <li>
-                              <a href="#">产品</a>
-                              <!-- <div class="nav-title"></div> -->
-                              <div class="nav-block"></div>
-                        </li>
-                        <li>
-                              <a href="#">解决方案</a>
-                              <!-- <div class="nav-title"></div> -->
-                              <div class="nav-block"></div>
-                        </li>
-                        <li>
-                              <a href="#">定价</a>
-                        </li>
-                        <li>
-                              <a href="#">ET大脑</a>
-                              <!-- <div class="nav-title"></div> -->
-                              <div class="nav-block"></div>
-                        </li>
-                        <li>
-                              <a href="#">数据智能</a>
-                              <!-- <div class="nav-title"></div> -->
-                              <div class="nav-block"></div>
-                        </li>
-                        <li>
-                              <a href="#">安全</a>
-                              <!-- <div class="nav-title"></div> -->
-                              <div class="nav-block"></div>
-                        </li>
-                        <li>
-                              <a href="#">云市场</a>
-                        </li>
-                        <li>
-                              <a href="#">服务</a>
-                        </li>
-                        <li>
-                              <a href="#">合作伙伴</a>
-                        </li>
-                  </ul>
-                  <!-- 登录 -->
-                  <a href="#">免费注册</a>
+            <div class="header-index-img">
+                <a href="#">
+                    <img src="img/header/aliyun1.gif" alt="">
+                    <img src="img/header/logo.png" alt="">
+                </a>
             </div>
-            <!-- 弹出导航内容 -->
+            <input class="header-search" type="text"><img class="header-search-img" src="img/header/search.png" alt="">
+            <div class="header-top-right">
+                <ul>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">邮箱</a></li>
+                    <li><a href="#">备案</a></li>
+                    <li><a href="#">文档</a></li>
+                    <li><a href="#">控制台</a></li>
+                    <li><img class="header-shoping-img" src="img/header/shopingCar.png" alt=""><a href="#">购物车</a></li>
+                    <li>中国站</li>
+                </ul>
+            </div>
+        </div>
+        <!-- 头部 导航栏bar -->
+        <div class="header-nav">
+            <ul>
+                <li><a href="#">最新活动</a></li>
+                <li><a href="#">产品</a></li>
+                <li><a href="#">解决方案</a></li>
+                <li><a href="#">定价</a></li>
+                <li><a href="#">ET大脑</a></li>
+                <li><a href="#">数据智能</a></li>
+                <li><a href="#">安全</a></li>
+                <li><a href="#">云市场</a></li>
+                <li><a href="#">支持与服务</a></li>
+                <li><a href="#">合作伙伴</a></li>
+            </ul>
+            <a class="header-nav-register" href="#">免费注册</a>
+        </div>
+    </div>
+   
+    <!-- hb悬停 导航框 -->
+    <div class="header-hover">
+        <div class="header-hover-left">
+            <ul>
+                <li>阿里云计算<span>&gt;</span></li>
+                <li>产品<span>&gt;</span></li>
+                <li>解决方案<span>&gt;</span></li>
+                <li>云市场<span>&gt;</span></li>
+                <li>开发者<span>&gt;</span></li>
+                <li>文档<span>&gt;</span></li>
+                <li>支持与服务<span>&gt;</span></li>
+                <li>云栖社区<span>&gt;</span></li>
+                <li>阿里云大学<span>&gt;</span></li>
+                <li>合作与生态<span>&gt;</span></li>
+                <hr>
+                <li>官方入口<span>&gt;</span></li>
+                <li>创业基地<span>&gt;</span></li>
+                <li>服务社区<span>&gt;</span></li>
+                <li>合作与生态</li>
+                <li>创业基地</li>
+            </ul>
+        </div>
+        <div class="header-hover-center">
+            <ul>
+               <li>精选<span>&gt;</span></li>
+               <li>人工智能<span>&gt;</span></li>
+               <li>云计算基础<span>&gt;</span></li>
+               <li>物联网<span>&gt;</span></li>
+               <li>大数据<span>&gt;</span></li>
+               <li>安全<span>&gt;</span></li>
+               <li>企业应用<span>&gt;</span></li>
+               <li>开发者服务<span>&gt;</span></li>
+            </ul>
+        </div>
+        <div class="header-hover-right">
+            <ul>
+                <li><a href="#">公司/商标注册等服务</a></li>
+                <li><a href="#">视频直播</a></li>
+                <li><a href="#">销售管理</a></li>
+                <li><a href="#">财务管理</a></li>
+                <li><a href="#">协同办公</a></li>
+                <li><a href="#">人事管理</a></li>
+                <li><a href="#">人脸查找</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
 
-      </div>
+    <script src="js/header.js"></script>
 </body>
-
 </html>

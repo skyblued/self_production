@@ -1,9 +1,4 @@
-.header {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-}
+
 
 #main {
       min-width: 1200px;
@@ -18,19 +13,69 @@
 .banner{
     position: relative;
     width: 100%;
-    height: 640px;
+    height: 700px;
     overflow: hidden;
+    min-width: 1000px;
 }
-.banner-item{
-    /* transition: 1s; */
-    
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(55,57,66, .3);
+    border-bottom: 1px solid #9A9B9F;
+    transition: .5s;
+}
+#header:hover{
+    background: rgba(55,57,66, 1);
+    border-bottom: none;
 }
 .banner-item img{
     width: 100%;
-    height: 640px;
+    height: 700px;
     float: left;
 }
-
+/* banner的detail */
+.banner-detail {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.banner-detail ul{
+    padding-left: 8%;
+    padding-right: 8%;
+    background: rgba(56,58,66, .9);
+}
+.banner-detail>ul>li{
+    padding: 30px;
+    cursor: pointer;
+    transition: .5s;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+}
+.banner-detail>ul>li:hover{
+    background: rgba(255,255,255,.2);
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+/* banner的title */
+.banner-title{
+    min-width: 1000px;
+}
+.banner-title img{
+    width: 20%;
+    padding: 30px; 
+}
+.banner-title h1{
+    padding-bottom: 20px;
+    color: #5D655A;
+}
+.banner-title a{
+    color: #373D41;
+}
+.banner-title a:hover{
+    color: #00c1de;
+}
 /* 小图片 */
 
 .product-icon {
@@ -267,5 +312,61 @@ div.row .product-left p {
 .to-up p,
 .to-up span,
 .black-bg a {
-      transition: .5s;
+    transition: .5s;
+}
+/* 放大图片 */
+.main-img-scale{
+    background: rgb(200,200,200);
+}
+.main-img-scale-title{
+    text-align: center;
+    padding: 50px;
+}
+.main-img-scale-title h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.main-img-scale-list{
+    width:100%;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main-img-scale-list>ul{
+    justify-content: space-between;
+}
+.main-img-scale-list>ul>li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-img-scale-item{
+    cursor: pointer;
+    border: 1px solid rgba(0, 193, 222, .7);
+}
+.main-img-scale-item-scale{
+    overflow: hidden;
+    height: 260px;
+}
+.main-img-scale-item img{
+    width: 100%;
+    height: 260px;
+    transition: 1s;
+}
+.main-img-scale-item:hover img{
+    transform: scale(1.5);
+}
+.main-img-scale-item p{
+    padding: 20px;
+    background: #fff;
+    margin-top: -4px;
+    font-size: 15px;
+}
+.main-img-scale-link a, .main-img-scale-title a{
+    color: #000;
+}
+.main-img-scale-link a:hover, .main-img-scale-title a:hover{
+    color: #00c1de;
+}
+.main-img-scale-link p{
+    padding-top: 20px;
 }

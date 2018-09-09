@@ -10,9 +10,11 @@ ul{
 a{
   text-decoration: none;
   transition: color .3s;
+  color: #fff;
 }
-.top li a:hover, .list>li>a:hover, .footer .footer-bottom p a:hover, .product-left span:hover, .product-icon ul li a:hover{
-   color: #00c1de;
+
+a:hover, .product-left span:hover{
+    color: #00c1de;
 }
 .display-block{
   display: block;
@@ -61,6 +63,9 @@ a{
 }
 .col-2{
   width: 20%;
+}
+.col-3{
+    width: 30%;
 }
 .col-4{
    width: 33.33%;
