@@ -6,18 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/boot.css">
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/rigiter.css">
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
+  <link rel="stylesheet" href="css/register.css">
   <title>Document</title>
 </head>
-<body>
+<body class="body">
   <!-- top -->
   <header class="header">
     <a href="#">
-      <img src="img/index/aliyun2.gif" alt="">
-      <img src="img/index/rigister.png" alt="">
+      <img src="img/index/aliyun.gif" alt="">
+      <img src="img/index/logo.png" alt="">
     </a>
   </header>
   <!-- 咨询栏固定 -->
@@ -27,7 +24,7 @@
   </div>
   <!-- 主体 -->
   <div class="main">
-      <h1>欢迎注册阿里云</h1>
+    <h1>欢迎注册阿里云</h1>
     <p class="login">已有阿里云、淘宝或1688账号？<a href="#"> 快捷登录 ></a></p>
     <!-- 表单 -->
     <form class="form" action="/rigister">
@@ -36,12 +33,14 @@
       <p><input type="password" placeholder="设置你的登录密码"></p>
       <p><input type="password" placeholder="请再次输入你的密码"></p>
       <p class="d-flex ">
-        <span>+86</span>  
-        <input type="text" placeholder="请输入你的手机号">
+        <span class="num-code">+86</span>  
+        <input class="num" type="text" placeholder="请输入你的手机号">
       </p>
       <div class="slide">
-        <span>>></span>
-        <span>请按住滑块,拖动到最右边</span>
+        <div class="slide-bg">
+            <span>>></span>
+            <span>请点击按钮完成验证</span>
+        </div>
       </div>
       <input class="agree" type="submit" value="同意条款并注册">
       <p>
@@ -53,5 +52,6 @@
     
   </div>
   <!-- footer -->
+  <script src="js/register.js"></script>
 </body>
 </html>
