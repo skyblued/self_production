@@ -5,13 +5,13 @@ body{
 .header{
   width: 100%;
   height: 80px;
-  background: rgba(240, 240, 240, 0);
+  background: rgba(240, 240, 240, .2);
   border-bottom: 1px solid #D7D8D9;
   position: relative;
   transition: .5s;
 }
 .header:hover{
-    background: rgba(240, 240, 240, .5);
+    background: rgba(0, 0, 0, 1);
 }
 .header img{
   position: absolute;
@@ -29,9 +29,9 @@ body{
   height: 540px;
   text-align: center;
   padding: 50px 0;
-  background: rgba(255,255,255,.2);
-  border: 1px solid transparent;
+  background: rgba(0,0,0,.6);
   border-radius: 10px ;
+  box-shadow: 0 0 10px 10px #001A65;
 }
 .main>h1:first-child{
     color: #fff;
@@ -85,6 +85,27 @@ input.num{
     background: linear-gradient(to right,#00c1de 200px);
     padding-left: 50px;
 }
+/* 输入时提示信息 */
+.form-init{
+    position: absolute;
+    right: 100px;
+    width: 220px;
+    height: 45px;
+    line-height:45px;
+    background:#fee; 
+}
+.form-init img{
+    transform: scale(1.5)
+}
+.success{
+    background: 0;
+    right: 220px;
+}
+
+
+
+
+/*  */
 .form .slide span:first-child{
   display: inline-block;
   position: absolute;
@@ -94,9 +115,10 @@ input.num{
   text-align: center;
   line-height: 45px;
   background: #00c1de;
-  color: #fff;
+  color: #fff; 
   border: 2px solid #fff;
   transition: 2s;
+  cursor: pointer;
 }
 .agree{
   border: none;
@@ -139,4 +161,7 @@ input.num{
 }
 .flxed img{
   width: 100%;
+}
+.small{
+    font-size: 14px;
 }

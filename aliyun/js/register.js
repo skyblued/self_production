@@ -9,6 +9,7 @@ var timer = setInterval(function(){
     if(parseInt(getComputedStyle(span).left)>245){
             span.innerHTML = `✔`;
             slide.style.background = `#00c1de`;
+            slide.style.color = `#fff`;
             clearInterval(timer);
             timer =null;
         }
