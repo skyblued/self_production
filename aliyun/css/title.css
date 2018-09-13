@@ -1,6 +1,74 @@
 .body{
     min-width: 1200px;
 }
+.small{
+    font-size: 12px;
+}
+/* 头部 */
+.header{
+    min-width: 1035px;
+    color: #fff;
+    position: relative;
+    background: #44494D;
+    border-bottom: 1px solid #afafb8;
+}
+/* 头部 最上面 */
+.header-top{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 250px
+}
+/* top 的left */
+
+.header-index-img img{
+    position: absolute;
+    left: 60px;
+    transform: scale(.6);
+}
+
+.header-search{
+    background: rgba(255, 255, 255, .5);
+    border: 2px solid transparent;
+    width: 195px;
+    transition: .5s;
+    color: #fff;
+}
+.header-search:hover, .header-search:focus{
+    width: 300px;
+    border: 2px solid #00c1de;
+    background: rgba(255, 255, 255, .1);
+}
+.header-search-img{
+    margin-left: -35px;
+    margin-top: 11px;
+    width: 30px;
+    height: 30px;
+}
+/* 头部 右边的列表 */
+.header-top-right ul li{
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+}
+.header-top-right ul li a{
+    color: #fff;
+}
+.header-top-right ul li a:hover{
+    color: #00c1de;
+}
+.header-shoping-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* 主体内容 */
 .main{
     margin: 30px 100px;
     padding: 30px;
@@ -26,6 +94,7 @@
     box-shadow: 0 0 20px rgba(0, 198, 226, 1);
 }
 .title-item{
+    height: 79px;
     background: #00c1de;
     padding: 10px 50px 10px 10px;
     color: #fff;
@@ -83,11 +152,21 @@ p.my-btn:hover{
 
 /* 推荐内容 recommend */
 .recommend{
+
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 50px;
+
 }
 .recommend-list{
-    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding-left: 5%; */
+}
+.recommend-list-item{
+    border: 1px solid #D4CFD7;
+    margin-right: 20px;
 }
 .recommend-list-item-top{
     background: #00c1de;
@@ -115,6 +194,18 @@ p.my-btn:hover{
 .recommend-list-item-bottom p{
     margin: 0;
 }
-.recommend-list-item-bottom{
-    
+.recommend-list-item a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: linear-gradient(to right,#FD6D21,#FF9B02);
+}
+.recommend-list-item a:hover{
+    background: linear-gradient(to right,#FD3900,#FF6A00);
+}
+.recommend-list-item>div.small{
+    padding: 10px;
 }

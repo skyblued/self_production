@@ -1,6 +1,15 @@
 body{
     min-width: 1200px;
 }
+#header{
+    background: #1C2327;
+}
+.header-top-right ul li a{
+    color: #fff;
+}
+.header-top-right ul li a:hover{
+    color: #00c1de;
+}
 /* banner */
 .banner{
     width: 100%;
@@ -32,7 +41,7 @@ body{
 .detail-slide{
     position: absolute;
     left: 100px;
-    width: 210px;
+    width: 212px;
     height: 50px;
     background: #00c1de;
     transition: all .7s;
@@ -96,4 +105,120 @@ body{
         flex: 0 0 33.333333%;
         max-width: 30.333333%;
       
+}
+
+.active{
+    display: block;
+}
+.hide{
+    display: none;
+}
+/* 云栖大会 */
+#detail-three{
+    width: 100%;
+    padding: 20px 100px 50px 100px;
+    cursor: pointer;
+}
+.detail-three-title>h1{
+    border-left: 2px solid #00c1de;
+    padding-left: 20px;
+}
+.detail-three-item{
+    position: relative;
+    width:298px;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}
+.detail-three-bg1{
+    background-image: url(../img/details/detail-img1.jpg);
+    background-size: cover;
+}
+.detail-three-bg2{
+    background-image: url(../img/details/detail-img2.jpg);
+}
+.detail-three-bg3{
+    background-image: url(../img/details/detail-img3.jpg);
+}
+.detail-three-bg4{
+    background-image: url(../img/details/detail-img4.jpg);
+}
+.detail-three-link{
+    width: 100%;
+    height:100%;
+}
+.detail-three-link:hover{
+    background-color: rgba(0,0,0,.6);
+}
+.detail-three-link h1{
+    margin-bottom: 180px;
+}
+.link-bg1{
+    background: rgba(57,110,135,.7) url(../img/details/span.png) no-repeat center center;
+}
+.link-bg2{
+    background: rgba(27,113,86,.7) url(../img/details/span.png) no-repeat center center;
+}
+.link-bg3{
+    background: rgba(24,58,151,.7) url(../img/details/span.png) no-repeat center center;
+}
+.link-bg4{
+    background: rgba(56,35,98,.7) url(../img/details/span.png) no-repeat center center;
+}
+/* 大赛 */
+#detail-five{
+    width: 100%;
+    padding: 20px 100px 50px 100px;
+}
+#detail-five h2{
+    border-left: 2px solid #00c1de;
+    padding-left: 20px;
+}
+.detail-five-main{
+    position: relative;
+    padding-left: 160px;
+}
+.detail-five-list{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    border: 1px solid #EEEEEE;
+    cursor: pointer;
+}
+.detail-five-list li{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #E3E3E3;
+    background: #C6C6C6;
+}
+.detail-five-table{
+    width: 1040px;
+    margin-bottom: 100px;
+}
+.detail-five-table thead{
+    background: #C6C6C6;
+}
+.detail-five-table thead th, .detail-five-table tbody td{
+    padding: 15px;
+    border-bottom: 1px solid #E3E3E3;
+}
+.detail-five-table tr td:nth-child(4){
+    color: #FD5F52;
+}
+.detail-five-table p{
+    font-size: 12px;
+}
+.detail-five-table tbody tr td a{
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #00A2CA;
+    color: #fff;
+}
+.detail-five-table tbody tr td a:hover{
+    background: #00c1de;
 }
