@@ -1,0 +1,180 @@
+body{
+  background: url(../img/register/register.jpg);
+}
+/* top */
+.header{
+  width: 100%;
+  height: 80px;
+  background: rgba(240, 240, 240, .2);
+  border-bottom: 1px solid #D7D8D9;
+  position: relative;
+  transition: .5s;
+}
+.header:hover{
+    background: rgba(0, 0, 0, 1);
+}
+.header img{
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 150px;
+  height: 30px;
+}
+
+/* 主体 */
+.main{
+  position: relative;
+  margin: 50px auto;
+  width: 1000px;
+  height: 540px;
+  text-align: center;
+  padding: 50px 0;
+  background: rgba(0,0,0,.6);
+  border-radius: 10px ;
+  box-shadow: 0 0 10px 10px #001A65;
+}
+.main>h1:first-child{
+    color: #fff;
+}
+input{
+    border-radius: 5px;
+}
+input.num{
+    border-radius: 0 5px 5px 0;
+}
+.d-flex span.num-code{
+    border-radius: 5px 0 0 5px;
+    border:2px solid #9A9A9A;
+    border-right: 0;
+    background: #fff;
+}
+.login{
+  position: absolute;
+  right: 0;
+  top: 10%;
+  color: #fff;
+}
+.main h1{
+  padding-bottom: 2rem;
+  margin: 0;
+}
+.form{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+.form input{
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+}
+.d-flex span{
+  width: 50px;
+  padding: 8px;
+  border: 1px solid #C3C5C6;
+}
+.form .slide{
+  text-align: left;
+  margin-bottom: 1rem;
+  background: #E8E8E8;
+  line-height: 45px;
+  position: relative;
+}
+.slide-bg{
+    width: 300px;
+    background: linear-gradient(to right,#00c1de 200px);
+    padding-left: 50px;
+}
+/* 输入时提示信息 */
+.form-init{
+    position: absolute;
+    right: 100px;
+    width: 220px;
+    height: 45px;
+    line-height:45px;
+    background:#fee; 
+    border-radius: 5px;
+}
+.form-init::before{
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+    background: #FFEEEE;
+    transform: rotate(-45deg)
+}
+.form-init img{
+    transform: scale(1.5)
+}
+.success{
+    background: 0;
+    right: 220px;
+}
+.hide{
+    display: none;
+}
+.form .slide span:first-child{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background: #00c1de;
+  color: #fff; 
+  border: 2px solid #fff;
+  transition: 2s;
+  cursor: pointer;
+}
+
+
+.agree{
+  border: none;
+  background: #00c1de;
+  color: #fff;
+}
+
+
+.form p:last-child{
+  width: 110%;
+  line-height: 22px;
+  margin-top: 10px;
+  position: relative;
+}
+.form .checkbox{
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 20px;
+  height:20px;
+}
+.form .clause{
+  font-size: 10px;
+}
+.form .clause:hover{
+  text-decoration: none;
+}
+/* 咨询栏 */
+.flxed{
+  position: absolute;
+  bottom: 15%;
+  right: 2%;
+  width: 45px;
+  height: 130px;
+  background: #00c1de;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.flxed img{
+  width: 100%;
+}
+.small{
+    font-size: 14px;
+}
