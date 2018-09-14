@@ -41,6 +41,13 @@ hhCenter.onmouseout = function(){
 hhRight.onmouseover = function(){
     hhRight.style.width = `500px`;
 }
-// hhRight.onmouseout = function(){
-//     hhRight.style.width = 0;
-// }
+
+$(function(){
+    var kw = location.search.split("=")[1];
+    console.log(kw)
+    if(kw == "login"){
+        $("#login").hide();
+        $("#register").html(`<img src="img/header/liu.png"> 刘胜强`)
+                       .css("background",0);
+    }
+})

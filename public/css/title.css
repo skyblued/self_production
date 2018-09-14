@@ -4,6 +4,10 @@
 .small{
     font-size: 12px;
 }
+/* 头像 */
+#title-login img{
+    height: 45px;
+}
 /* 头部 */
 .header{
     min-width: 1035px;

@@ -2,11 +2,11 @@
 
 .footer{
    width: 100%;
-   height: 400px;
    min-width: 1200px;
    padding: 20px 20px 0;
    background: #373d41;
    text-align: center;
+   color: #fff;
 }
 .footer:after{
    display: block;
@@ -14,6 +14,7 @@
    content: "";
 }
 ul.footer-top{
+    height: 170px;
    padding: 20px 0 20px;
    border-bottom: 1px solid #4b5054;
    margin-left: 100px;
@@ -30,11 +31,15 @@ ul.footer-top{
 .footer-top>li>h4{
    position: absolute;
    left: 0;
-   margin-top: 1rem;
+   margin-top: 10px;
    color: #95999B;
 }
 .list>li>a{
    font-size: .9rem;
+   color: #fff;
+}
+.list>li>a:hover{
+    color: #00c1de;
 }
 
 .list>li{
@@ -50,6 +55,12 @@ ul.footer-top{
 }
 .footer-bottom>p{
    padding-top: 32px;
+}
+.footer-bottom p a{
+    color: #fff;
+}
+.footer-bottom p a:hover{
+    color: #00c1de;
 }
 .footer-bottom>p:first-child a{
    font-size: 1.2rem;

@@ -47,6 +47,7 @@ body{
   background: #00c1de;
   border: none;
   height: 43px;
+  cursor: pointer;
 }
 .login-link{
   color: #9B9EA0;

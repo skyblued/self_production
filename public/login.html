@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/boot.css">
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/footer.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -37,7 +39,7 @@
       <div class="col-6 pl-5">
         <div class="bg-white login-box">
           <h3 class="text-left pl-4 pt-3 mb-5 h5">密码登录</h3>
-          <p class="msg">水电费公司发的广泛地</p>
+          <p class="msg"></p>
           <form action="/login">
             <p>
               <input name="uname" placeholder="邮箱/会员名/8位ID" class="login-input" type="text">
@@ -46,7 +48,7 @@
               <input name="upwd" placeholder="请输入登录密码" class="login-input" type="password">
             </p>
             <p>
-              <input class="login-btn" type="submit" value="登录">
+              <input class="login-btn" type="button" value="登录">
             </p>
             <p class="text-right pr-5">
               <a class="login-link" href="#">忘记密码</a>
@@ -63,10 +65,9 @@
     </div>
   </div>
   <!-- footer -->
-  <footer>
-    <iframe style="height:550px;" class="w-100" src="footer.html" frameborder="0"></iframe>
-  </footer>
+  <footer id="footer"></footer>
   <script src="js/login.js"></script>
+  <script src="js/footer.js"></script>
 </body>
 
 </html>

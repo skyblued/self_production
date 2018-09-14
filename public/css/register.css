@@ -129,12 +129,19 @@ input.num{
   transition: 2s;
   cursor: pointer;
 }
-
+span.phone-init{
+    width: 300px;
+    color: #fff;
+    margin-right: -250px;
+    border:0;
+    text-align: left;
+}
 
 .agree{
   border: none;
   background: #00c1de;
   color: #fff;
+  cursor: pointer;
 }
 
 
