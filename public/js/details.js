@@ -18,4 +18,15 @@ $(function(){
         var id = $nav.attr("data-toggle");
         $(id).show().siblings().hide();
     })
+    $("#index").click(function(){
+        location.href = "http://localhost:8080/index.html?kw=login";
+    })
+    var $ul = $(".detail-five-list");
+    $ul.on("click","li.dis",function(){
+        var $li = $(this);
+        $li.css("background","#fff").siblings().css("background","#C6C6C6");
+        var $tb = $li.attr("data-toggle");
+        console.log($($tb))
+        $($tb).show().siblings(":not(:first)").hide();
+    })
 })

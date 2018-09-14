@@ -3,7 +3,7 @@ const bodyPaser = require("body-parser");
 const pool = require("./pool.js")
 var app = express();
 
-app.listen(8080,()=>console.log("攻击开始"));
+app.listen(8080,()=>console.log("server success"));
 app.use(express.static("public"));
 app.use(bodyPaser.urlencoded({extended: false}));
 

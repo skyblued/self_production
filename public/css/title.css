@@ -71,13 +71,24 @@
     margin-right: 10px;
     vertical-align: middle;
 }
-
+/* btn 的样式 */
+#btn1,#btn2{
+    width: 25px;
+    height: 23px;
+}
 /* 主体内容 */
 .main{
     margin: 30px 100px;
     padding: 30px;
     border: 1px solid #9b9b9b;
     box-shadow: 0 2px 15px 0 rgba(0,0,0,.5);
+}
+.nm{
+    color: black;
+}
+.nm:hover{
+    color: #00c1de;
+    text-decoration: underline;
 }
 .title-banner img{
     width: 100%;

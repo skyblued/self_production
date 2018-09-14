@@ -107,6 +107,9 @@ body{
       
 }
 
+.detail-five-list li.key{
+    background: #fff;
+}
 .active{
     display: block;
 }

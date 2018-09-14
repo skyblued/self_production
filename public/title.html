@@ -22,7 +22,7 @@
         <!-- 头部 bar -->
         <div class="header-top">
             <div class="header-index-img">
-                <a href="index.html" target="_blank">
+                <a href="http://localhost:8080/index.html?kw=login" target="_self">
                     <img src="img/header/aliyun1.gif" alt="">
                     <img src="img/header/logo.png" alt="">
                 </a>
@@ -55,8 +55,8 @@
             <b>ECS云服务器2折起，优惠配置多选1</b>
           </h2>
           <p>
-            <a href="#">实名认证 </a><span class="d-inline-block">后新老用户均可购买，限购1单，第2单起恢复原价；时长越长越优惠，新用户可买3台。</span>
-            <a href="#">详细规则</a>
+            <a class="nm" href="#">实名认证 </a><span class="d-inline-block">后新老用户均可购买，限购1单，第2单起恢复原价；时长越长越优惠，新用户可买3台。</span>
+            <a class="nm" href="#">详细规则</a>
           </p>
         </div>
         <div class="pt-3">
@@ -237,9 +237,9 @@
         <span class="title-config-width">1M</span>
         <span class="title-config-width">2M</span>
         <h6 class="pt-3">台数</h6>
-        <h6><input class="my-width text-center" type="text" value="1">台 <button>+</button></h6>
+        <h6><button id="btn2">-</button><input class="my-width text-center" type="text" value="1"><button id="btn1">+</button></h6>
         <h6>网络类型 <span> VPC专有网络 </span></h6>
-        <p class="color-dark">总价：<h3 class="my-color">￥ 293</h3>
+        <p class="color-dark">总价：<h3 id="price" class="my-color">￥ 394</h3>
         </p>
         <p class="my-btn">立即购买</p>
       </div>
@@ -342,6 +342,7 @@
   <!-- footer -->
   <footer id="footer"></footer>
   <script src="js/footer.js"></script>
+  <script src="js/title.js"></script>
 </body>
 
 </html>
