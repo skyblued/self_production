@@ -7,12 +7,14 @@ $(function(){
         var $input = $(this);
         // 验证用户名框是否为空
         if($input.attr("name") == "uname"){
+            uname=null;
             if($input.val() == ""){
                 $input.next().show().html(`请输入6-18位的字母或数字`);
             }else{
                 $input.next().hide().removeClass("success");
             }
         }else{//验证密码框是否为空
+            upwd=null;
             if($input.val() == "")  $input.next().show().html(`请输入6-18位的字母或数字`);
             else    $input.next().hide().removeClass("success");
         }
@@ -73,7 +75,6 @@ $(function(){
                 data: `uname=${uname}&upwd=${upwd}`
             })
             .then(function(res){
-                alert(res)
                 location.href = `http://localhost:8080/login.html`;
             })
         }else{
